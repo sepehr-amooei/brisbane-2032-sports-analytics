@@ -1,4 +1,4 @@
-<img width="1200" height="700" alt="Bar chart — Top 10 Most Participated Olympic Sports (Ages 5-17)" src="https://github.com/user-attachments/assets/ca9a8b39-6da9-471e-af1f-ac82dfac81d4" /># Brisbane 2032 Olympics — Sports Fan Support Strategy
+# Brisbane 2032 Olympics — Sports Fan Support Strategy
 ### Australian Sports Commission (ASC) Data Analytics Project
 **QUT IFN619 — Data Analytics for Strategic Decision Makers**
 
