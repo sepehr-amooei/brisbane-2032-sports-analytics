@@ -1,4 +1,4 @@
-# Brisbane 2032 Olympics — Sports Fan Support Strategy
+<img width="1200" height="700" alt="Bar chart — Top 10 Most Participated Olympic Sports (Ages 5-17)" src="https://github.com/user-attachments/assets/ca9a8b39-6da9-471e-af1f-ac82dfac81d4" /># Brisbane 2032 Olympics — Sports Fan Support Strategy
 ### Australian Sports Commission (ASC) Data Analytics Project
 **QUT IFN619 — Data Analytics for Strategic Decision Makers**
 
@@ -20,20 +20,6 @@ The ASC needs to build fan support for athletes over the next 6 years through st
 - Early adolescents will become young adults by 2032 — prime social media advocates
 - Australia's social media ban for under-16s creates an opportunity to attract youth to sports
 
----
-
-## 📁 Repository Structure
-├── UA1_Sepehr_Amooeinejad_N12631001.ipynb    # Assignment 1 notebook
-├── UA2_Sepehr_Amooeinejad_N12631001.ipynb    # Assignment 2 notebook
-├── data/
-│   ├── social_media_ban_articles.json         # Guardian API articles (Assignment 1)
-│   ├── social_media_mental_health_articles.json # Guardian API articles (Assignment 2)
-│   ├── lda_topics.json                        # Saved LDA topics
-│   └── df_olympic.csv                         # Processed Olympic sports data
-├── images/                                    # Charts and visualisations
-└── README.md
----
-
 ## 📊 Assignment 1 — Foundational Data Analytics
 
 ### Cycle 1: Structured Analysis — AusPlay Participation Data
@@ -53,7 +39,7 @@ The ASC needs to build fan support for athletes over the next 6 years through st
 
 **Analysis & Key Findings:**
 
-> 📊 **[INSERT: Bar chart — Top 10 Most Participated Olympic Sports (Ages 5-17)]**
+<img width="1200" height="700" alt="Bar chart — Top 10 Most Participated Olympic Sports (Ages 5-17)" src="https://github.com/user-attachments/assets/c0e5094f-1534-4075-9b0b-5e6e2b115bfc" />
 
 Top 10 most participated confirmed Brisbane 2032 Olympic sports:
 1. Swimming — 1.32M participants
@@ -69,7 +55,8 @@ Top 10 most participated confirmed Brisbane 2032 Olympic sports:
 
 Swimming and Football/soccer combined account for more than half of total participation across all top 10 sports.
 
-> 📊 **[INSERT: Faceted bar chart — Age Group Distribution within Top 10 Sports]**
+<img width="1200" height="700" alt="Faceted bar chart — Age Group Distribution within Top 10 Sports" src="https://github.com/user-attachments/assets/4225481f-4198-40ce-b8c1-c488aeac4863" />
+
 
 **Age Group Trend Categories (Manual Classification):**
 - **U-shaped trend:** Swimming, Football/soccer — peak at young ages, dip at 12-14, recover at 15-17
@@ -98,7 +85,8 @@ Swimming and Football/soccer combined account for more than half of total partic
 **Analysis:** CountVectorizer word frequency analysis
 - max_df=0.86, min_df=2, max_features=500, stop_words="english"
 
-> 📊 **[INSERT: Horizontal bar chart — Top 30 Most Frequent Words]**
+<img width="1000" height="800" alt="Horizontal bar chart — Top 30 Most Frequent Words" src="https://github.com/user-attachments/assets/20586073-45a2-44a3-b357-eeaec32c08e5" />
+
 
 **Key Themes Identified (Manual Clustering):**
 
@@ -135,7 +123,8 @@ Swimming and Football/soccer combined account for more than half of total partic
 - Tested k values 3-10 using loop
 - Selected k=4 as optimal
 
-> 📊 **[INSERT: Line chart — Average Participation Trend by Cluster]**
+<img width="900" height="500" alt="Line chart — Average Participation Trend by Cluster" src="https://github.com/user-attachments/assets/28bcee6d-edcc-47f5-8332-8bf9555ee909" />
+
 
 **Cluster Results:**
 
@@ -172,7 +161,14 @@ Swimming and Football/soccer combined account for more than half of total partic
 - Removed barriers ASC cannot influence (disability, poor health, cultural factors)
 - 11 actionable barriers retained
 
-> 📊 **[INSERT: 4 separate bar charts — Top Barriers by Age Group (5-8, 9-11, 12-14, 15-17)]**
+<img width="900" height="400" alt="1- separate bar charts — Top Barriers by Age Group (5-8, 9-11, 12-14, 15-17)" src="https://github.com/user-attachments/assets/7bd5a8b5-883e-4e7e-969f-59ff61c72da8" />
+
+<img width="900" height="400" alt="2- separate bar charts — Top Barriers by Age Group (5-8, 9-11, 12-14, 15-17)" src="https://github.com/user-attachments/assets/9e9f4ce5-3695-42f7-8f83-89e4ece196af" />
+
+<img width="900" height="400" alt="3- separate bar charts — Top Barriers by Age Group (5-8, 9-11, 12-14, 15-17)" src="https://github.com/user-attachments/assets/bf3822f6-6267-47e8-abaf-8e77fd4a4844" />
+
+<img width="900" height="400" alt="4- separate bar charts — Top Barriers by Age Group (5-8, 9-11, 12-14, 15-17)" src="https://github.com/user-attachments/assets/fbf8afd1-eac9-42a8-942e-bc3145671bb8" />
+
 
 **Key Findings:**
 
@@ -209,7 +205,8 @@ Swimming and Football/soccer combined account for more than half of total partic
 - Tested k=3 to k=10, selected k=7
 - random_state=42 for reproducibility
 
-> 📊 **[INSERT: Table — Article titles with dominant topic assignments]**
+<img width="734" height="635" alt="image" src="https://github.com/user-attachments/assets/4d951aa4-d4c3-48d6-9514-3995a860a53f" />
+
 
 **Topics Identified:**
 
