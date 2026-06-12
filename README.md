@@ -20,6 +20,22 @@ The ASC needs to build fan support for athletes over the next 6 years through st
 - Early adolescents will become young adults by 2032 — prime social media advocates
 - Australia's social media ban for under-16s creates an opportunity to attract youth to sports
 
+## 📁 Repository Structure
+
+```
+├── UA1_Sepehr_Amooeinejad_N12631001.ipynb    # Assignment 1 notebook
+├── UA2_Sepehr_Amooeinejad_N12631001.ipynb    # Assignment 2 notebook
+├── data/
+│   ├── social_media_ban_articles.json         # Guardian API articles (Assignment 1)
+│   ├── social_media_mental_health_articles.json # Guardian API articles (Assignment 2)
+│   ├── lda_topics.json                        # Saved LDA topics
+│   └── df_olympic.csv                         # Processed Olympic sports data
+├── images/                                    # Charts and visualisations
+└── README.md
+```
+
+---
+
 ## 📊 Assignment 1 — Foundational Data Analytics
 
 ### Cycle 1: Structured Analysis — AusPlay Participation Data
